@@ -147,3 +147,11 @@
     background: #fefefe;
     border-color: red;
   }
+
+/* Footer */
+footer {
+    padding: 25px;
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+}
