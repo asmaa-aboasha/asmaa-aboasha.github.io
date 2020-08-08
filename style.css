@@ -22,7 +22,7 @@
             justify-content: space-between;
     /* background: url("https://image.freepik.com/free-photo/top-view-desktop-with-laptop-succulent_23-2148397913.jpg?w=1260&h=750&auto=compress&cs=tinysrgb") center center no-repeat; */
     background-size: cover;
-    background-color: white;
+    background-color: #fefefe;
   }
   
   .hero-full-screen .middle-content-section {
@@ -69,6 +69,49 @@
     color: black;
   }
 
+/* Profile Card */
+.card-user-container {
+    margin-bottom: 0.5rem;
+    background-color: #fefefe;
+    color: #0a0a0a;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0;
+  }
+  
+  .card-user-container .card-user-avatar .user-image {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+  }
+  
+  .card-user-container .card-user-avatar .user-image:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  
+  .card-user-container .card-user-bio {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-user-container .card-user-bio .location {
+    display: inline-block;
+    margin: 0 0.9375rem;
+    color: #767676;
+    font-size: 1rem;
+  }
+  
+  .card-user-container .card-user-bio .location-icon,
+  .card-user-container .card-user-bio .location-text {
+    display: inline-block;
+    padding: 0 0.3125rem;
+  }
+
 /* Contact buttons */
 .rounded-social-buttons {
   text-align: center;
@@ -91,6 +134,7 @@
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.25rem;
+  margin-top: 5rem;
   margin-bottom: 0.25rem;
 }
 
